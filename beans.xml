@@ -7,4 +7,21 @@
 	<bean id="helloWorld"
 		class="com.examples.spring.basic.HelloWorld">
 	</bean>
+	
+	<bean id ="person" class="com.examples.spring.basic.Person">
+	<property name="firstName" value="Vinod"></property>
+	<property name="lastName" value="Pillai"></property>
+	</bean>
+	
+	<bean id ="user" class= "com.examples.spring.basic.User" >
+	<property name="car" ref="car">
+	
+	</property>
+	</bean>
+	
+	<bean id="car" class="com.examples.spring.basic.Car">
+	<property name="modelName" value="swift"></property>
+	<property name="dailyRent" value="2000"></property>
+	</bean>
+	
 </beans>
