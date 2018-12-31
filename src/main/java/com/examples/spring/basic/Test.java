@@ -13,7 +13,7 @@ public class Test {
 //		System.out.println(p.toString());
 
 		User user = (User) context.getBean("user");
-		System.out.println("Car Detauls is as follows" +user.getCar().toString());
+		System.out.println("Car Detaugls is as follows" +user.getCar().toString());
 		
 		
 		
