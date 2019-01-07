@@ -7,12 +7,6 @@
 	                       http://www.springframework.org/schema/context
 	                       http://www.springframework.org/schema/context/spring-context.xsd">
 
- <context:property-placeholder location="D:/MyWorks/configloc/test.properties"/>
- 
- <bean id = "appProps" class="com.examples.spring.basic.AppProperties">
-        <property name="appName" value="${secret.id}"/>
-        <property name="appDesc" value="${app.description}"/>
-    </bean>
  
 
 	<bean id="helloWorld"
